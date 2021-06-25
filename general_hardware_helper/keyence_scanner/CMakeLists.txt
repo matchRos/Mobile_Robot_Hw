@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(keyence_scanner)
-add_compile_options(-std=c++11 -Wall -Wextra)
+add_compile_options(-std=c++14 -Wall -Wextra)
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS
