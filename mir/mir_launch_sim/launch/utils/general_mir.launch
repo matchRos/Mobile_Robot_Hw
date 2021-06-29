@@ -48,7 +48,7 @@
 
 	<!-- Robot state publisher -->
 	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen">
-		<param name="tf_prefix" value="$(arg tf_prefix)"/>
+		<param name="prefix_tf_with" value="$(arg tf_prefix)/"/>
 	</node>
 	
 	<!-- Add passive + mimic joints to joint_states topic -->
